@@ -1,7 +1,11 @@
 body{
   font-family: "Montserrat";
 }
-
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
 #title{
 
   background-color:wheat;
@@ -61,8 +65,6 @@ p{
 
 .nav-link{
   font-weight: "Montserrat-light";
-  
-  
 }
 
 /* Download Buttons */
@@ -159,9 +161,10 @@ p{
   line-height: 1.5;
 }
 
+.colored-section{
+  background-color: wheat;
+}
 #footer{
-
-  padding: 7% 15%;
   text-align: center;
 }
 
