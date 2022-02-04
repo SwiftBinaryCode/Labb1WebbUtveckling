@@ -67,13 +67,6 @@ p{
   font-weight: "Montserrat-light";
 }
 
-/* Download Buttons */
-
-.download-button{
-
-  margin: 5% 3% 5% 0 ;
-}
-
 /* Title Image */
 .title-image{
 
@@ -107,36 +100,8 @@ p{
   color:olive;
 }
 
-/* Testimonial Section */
-
-#testimonials{
-  text-align: center;
-  background-color: indianred;
-  color:#fff;
-}
-
-.testimonial-image{
-
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-
-}
-
-.carousel-item{
-  padding: 7% 15%;
-}
-
-#press{
-  background-color:indianred;
-  text-align: center;
-  padding-bottom:3%;
-}
-
-.press-logo{
-
-  width: 15%;
-  margin: 20px 20px 50px;
+.list{
+  font-size: 1.5rem;
 }
 
 /* Headings */
@@ -145,6 +110,10 @@ p{
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
   line-height: 1.5;
+}
+.popularcourses{
+  text-align: left;
+  font-weight: bold;
 }
 
 /* Cta Section */
