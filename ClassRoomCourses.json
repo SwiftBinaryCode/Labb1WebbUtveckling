@@ -1,0 +1,34 @@
+[  {
+    "courseNumber":1,
+    "courseTitle": ".Net",
+    "courseDescription": "NET (pronounced dot net) is a framework that provides a programming guidelines that can be used to develop a wide range of applications–––from web to mobile to Windows-based applications. The . NET framework can work with several programming languages such as C#, VB.NET, C++ and F#. At Grand Circus, we use C#.",
+    "courseLength":"1 Month",
+    "coursePrice":"1000kr",
+    "courseImg":"Images\net.png"
+  },
+  {
+    "courseNumber":2,
+    "courseTitle": "Cyber Security",
+    "courseDescription": "Computer security, cybersecurity, or information technology security is the protection of computer systems and networks from information disclosure, theft of or damage to their hardware, software, or electronic data, as well as from the disruption or misdirection of the services they provide.",
+    "courseLength":"1 Month",
+    "coursePrice":"1000kr",
+    "courseImg":""
+  },
+  {
+    "courseNumber":3,
+    "courseTitle": "Web Design",
+    "courseDescription": "Web designers plan, create and code internet sites and web pages, many of which combine text with sounds, pictures, graphics and video clips. A web designer is responsible for creating the design and layout of a website or web pages. It and can mean working on a brand new website or updating an already existing site.",
+    "courseLength":"1 Month",
+    "coursePrice":"1000kr",
+    "courseImg":""
+  },
+  {
+    "courseNumber":4,
+    "courseTitle": "Web Development",
+    "courseDescription": "Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.",
+    "courseLength":"1 Month",
+    "coursePrice":"1000kr",
+    "courseImg":""
+  }
+  
+]
