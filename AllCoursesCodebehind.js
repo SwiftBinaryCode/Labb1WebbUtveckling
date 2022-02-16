@@ -35,7 +35,7 @@ function populateList(input) {
         <div class="card">
           <img
             src="${courses.courseImg}"
-            class="card-img-top" alt="..." />
+            class="card-img-top " alt="..." />
           <div class="card-body">
             <div class="shop-item">
               <h5 class="shop-item-title">${courses.courseTitle}</h5>
@@ -44,7 +44,7 @@ function populateList(input) {
                 ${courses.courseDescription}
                 <p class="shop-item-price">${courses.coursePrice}</p>
                 <button type="button" class="btn btn-add btn-primary">
-                  Lägg i kundkorg
+                  Add to cart
                 </button>
               </p>
             </div>
@@ -53,6 +53,7 @@ function populateList(input) {
         </div>
         `
         ;
+        
       
     document.getElementById("allCourses").innerHTML += content;
   }
@@ -139,12 +140,13 @@ function addItemToCart(title, price) {
   var cartRowContents = 
   `
           <div class="cart-item cart-column">
+          
             <span class="cart-item-title">${title}</span>
           </div>
           <span class="cart-price cart-column">${price}</span>
           <div class="cart-quantity cart-column">
             <input type="number" value="1" class="cart-quantity-input">
-            <button class="btn btn-remove btn-outline-danger" type="button">Ta bort</button>
+            <button class="btn btn-remove btn-outline-danger" type="button">Remove</button>
             <br>
             <br>
           </div>`;
@@ -176,3 +178,56 @@ function updateCartTotal() {
   document.getElementsByClassName("cart-total-price")[0].innerHTML =
     total + "kr";
 }
+
+// //Admin page logistics
+
+function addCourse() {
+
+  var Number = document.getElementById("course-number").value
+  var Title = document.getElementById("course-title").value
+  var Description = document.getElementById("course-info").value
+  var Length = document.getElementById("course-length").value
+  var Price = document.getElementById("course-price").value
+  
+  let content =  `
+  
+    <div class="col">
+        <div class="card h-200">
+          <div class="card-body">
+            <div class="shop-item">
+              <h5 class="shop-item-title">${Title} ${Number} </h5>
+              <p class="course-length"><b>${Length}</b></p>
+              <p class="card-text">
+                ${Description}
+                <p class="shop-item-price">${Price}</p>
+                <button type="button" class="btn btn-add btn-primary">
+                  Add to cart
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+        `
+        ;
+        
+      
+    document.getElementById("allCourses").innerHTML += content;
+  
+  var addToCartButton = document.getElementsByClassName("btn-add");
+  for (var i = 0; i < addToCartButton.length; i++) {
+    var button = addToCartButton[i];
+    button.addEventListener("click", addToCart);
+  }
+
+  alert("Course added")
+
+  }
+
+  
+
+
+
+ 
+ 

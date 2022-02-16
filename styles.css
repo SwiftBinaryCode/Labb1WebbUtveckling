@@ -12,6 +12,31 @@ body{
   color: black;
 }
 
+.card {
+  text-align: left;
+  height: 100%; 
+  column-span: 2;
+  margin: 5px auto;
+  width: 100%;
+  background: "#2D9CDB";
+}
+
+.btn {
+  padding: 0.5rem;
+}
+
+.shop-item-price {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.card-img-top {
+  margin: 0 auto;
+  width: auto;
+  height: 9rem;
+}
+
+
 h1{
 
   font-family:"Montserrat-Black";
@@ -179,63 +204,6 @@ p{
     box-sizing: border-box;
     font-family: Raleway;
     color: #777;
-}
-
-html, body {
-    margin: 0;
-    padding: 0;
-    min-height: 100%;
-}
-
-.nav ul {
-    margin: 0;
-}
-
-.nav li {
-    display: inline;
-}
-
-.nav a {
-    display: inline-block;
-    padding: .5em;
-    color: white;
-    text-decoration: none;
-}
-
-.main-nav {
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: lighter;
-    border-bottom: 1px solid rgba(255, 255, 255, .3)
-}
-
-.main-nav li {
-    padding: 0 5%;
-}
-
-.nav a:hover {
-    background-color: rgba(255, 255, 255, .3)
-}
-
-.main-header {
-    background-color: rgba(0, 0, 0, .6);
-    background-image: url("Images/Header Background.jpg");
-    background-blend-mode: multiply;
-    background-size: cover;
-    padding-bottom: 30px;
-}
-
-.band-name {
-    text-align: center;
-    margin: 0;
-    font-size: 4em;
-    font-family: "Booter - Zero Zero";
-    font-weight: normal;
-    color: white;
-}
-
-.band-name-large {
-    font-size: 8em;
 }
 
 .content-section {

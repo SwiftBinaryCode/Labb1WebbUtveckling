@@ -51,6 +51,9 @@
                 <li class="nav-item">
                   <a class="nav-link" href="Cart.html"><i class="fas fa-shopping-cart fa-1x"></i></a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Admin.html">Admin</a>
+            </li>
             </ul>
          </div>
         </nav>
@@ -70,14 +73,56 @@
             </div>
         
             </div>
+
+
+            
+
         
         </div>
-          </section>
+       
+        
+
+
+          
         
             
             <section class="white-section" id="pricing">
 
                 <h2 class="section-header">Course Shop</h2>
+
+                <button id = "modal-button">Add New Course</button>
+                <!-- Modal -->
+                <div id="course-modal" class="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Add new Course</h5>
+                      </div>
+                      <div class="modal-body">
+                        <form action="/" method="post" id="new-course">
+                          <p class="course-content">CourseNumber</p>
+                          <input type="text" id="course-number" required>
+                          <p class="course-content">CourseTitle</p>
+                          <input type="text" id="course-title" required>
+                          <p class="course-content">CourseDescription</p>
+                          <input type="text" id="course-info" required>
+                          <p class="course-content">CourseLength</p>
+                          <input type="text" id="course-length" required>
+                          <p class="course-content">CoursePrice</p>
+                          <input type="text" id="course-price" required>
+                          <br>
+                          <!-- <input type="file" class="file" id="attachment" style="display: none;" onchange="fileSelected(this)" />
+                          <input type="button" class="file" id="btnAttachment" onclick="openAttachment()" value="Add Picture" /> -->
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal" id="close-btn">Close</button>
+                        <button type="submit" class="btn btn-primary" id="add-course" onclick="addCourse()">Add Course</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
               
                 <div class="container-fluid">
                   <div class="row" id ="allCourses"></div>
@@ -98,7 +143,7 @@
             
             <div class="cart-total">
                 <strong class="cart-total-title">Total</strong>
-                <span class="cart-total-price">$0</span>
+                <span class="cart-total-price">kr0</span>
             </div>
             <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
         </section>
@@ -117,8 +162,22 @@
       <p>© Copyright 2022 West Coast Education</p>
     </div>
   </footer>
+  
 
-  <script src="AllCoursesCodebehind.js"></script>
+  <script src="AllCoursesCodebehind.js">
+  </script>
+  <script>
+    var modal = document.getElementById("course-modal");
+    var modalBtn = document.getElementById("modal-button");
+    var closeBtn = document.getElementById("close-btn");
+    var addBtn = document.getElementById("add-course");
+    modalBtn.onclick = function () {
+      modal.style.display = "block";
+    }
+    closeBtn.onclick = function () {
+      modal.style.display = "none";
+    }
+  </script>
   
     </body>
 </html>
