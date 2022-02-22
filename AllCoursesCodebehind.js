@@ -31,11 +31,13 @@ function populateList(input) {
   for (let i = 0; i < input.length; i++) {
     const courses = input[i];
     let content =  `
-    <div class="col">
+
+    
+    <div class="pricing-column col-lg-6">
         <div class="card">
           <img
             src="${courses.courseImg}"
-            class="card-img-top " alt="..." />
+            class="responsive"/>
           <div class="card-body">
             <div class="shop-item">
               <h5 class="shop-item-title">${courses.courseTitle}</h5>
@@ -195,7 +197,7 @@ function addCourse() {
         <div class="card h-200">
           <div class="card-body">
             <div class="shop-item">
-              <h5 class="shop-item-title">${Title} ${Number} </h5>
+              <h5 class="shop-item-title">${Title}</h5>
               <p class="course-length"><b>${Length}</b></p>
               <p class="card-text">
                 ${Description}

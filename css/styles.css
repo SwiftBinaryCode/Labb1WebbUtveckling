@@ -3,9 +3,14 @@ body{
 }
 .responsive {
   width: 100%;
-  max-width: 400px;
-  height: auto;
+  height: 9rem;
+  float: left;
+  width:  200px;
+  height: 200px;
+  object-fit: cover;
+  margin: auto;
 }
+
 #title{
 
   background-color:wheat;
@@ -30,11 +35,7 @@ body{
   font-weight: bold;
 }
 
-.card-img-top {
-  margin: 0 auto;
-  width: auto;
-  height: 9rem;
-}
+
 
 
 h1{
@@ -106,8 +107,20 @@ p{
 
 /* Features */
 
+/* Pricing Section */
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
 #pricing{
 
+  padding: 100px;
   position: relative;
   z-index: 1;
   background-color: #fff;
@@ -119,25 +132,8 @@ p{
   z-index: 1;
 }
 
-.feature-box{
-  text-align: center;
-  padding: 4.5%;
-}
-
-.icon{
-
-  color:#ef8172;
-  margin-bottom: 1rem;
-}
 
 
-.icon:hover{
-  color:olive;
-}
-
-.list{
-  font-size: 1.5rem;
-}
 
 /* Headings */
 
@@ -146,10 +142,7 @@ p{
   font-size: 3.5rem;
   line-height: 1.5;
 }
-.popularcourses{
-  text-align: left;
-  font-weight: bold;
-}
+
 
 /* Cta Section */
 #cta{
@@ -180,13 +173,21 @@ p{
 @media (max-width: 1028px) {
 
   #title {
-    text-align: center;
+    text-align: left;
   }
 
   .title-image {
     position: static;
     transform: rotate(0);
   }
+  .card {
+    text-align: left;
+    height: 110%; 
+    width: 110%;
+    background: "#2D9CDB";
+  }
+
+  
 }
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
@@ -286,38 +287,6 @@ p{
     background-color: #2D9CDB;
 }
 
-.tour-row {
-    border-bottom: 1px solid black;
-    padding-bottom: 1em;
-    margin-bottom: 1em;
-}
-
-.tour-row:last-child {
-    border: none;
-}
-
-.tour-item {
-    display: inline-block;
-    padding-right: .5em;
-}
-
-.tour-date {
-    color: #555;
-    width: 11%;
-    font-weight: bold;
-}
-
-.tour-city {
-    width: 24%;
-}
-
-.tour-arena {
-    width: 42%;
-}
-
-.tour-btn {
-    max-width: 19%;
-}
 
 .shop-item {
     margin: 30px;
