@@ -29,7 +29,7 @@ body{
   }
   p{
     color:#8f8f8f;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   
@@ -59,8 +59,9 @@ body{
 
   .big-heading {
     font-family: "Montserrat-Black";
-    font-size: 5.5rem;
+    font-size: 2.5rem;
     line-height: 1.5;
+    
   }
 
 /* Navigation Bar */
@@ -72,7 +73,7 @@ body{
   
   .navbar-brand{
     font-family: "Ubuntu";
-    font-size: 2.5rem;
+    font-size: 1rem;
    
    
     
@@ -86,8 +87,8 @@ body{
   
   .nav-link{
     font-weight: "Montserrat-light";
-    font-size: large;
-    font-size: 1.5rem;
+    
+    font-size: 1rem;
   }
 
 <!--Features-->
@@ -107,7 +108,7 @@ body{
     padding: 4.5%;
   }
   .feature-title {
-    font-size: 3.5rem;
+    font-size: 1.5rem;
   }
 <!--Footer-->
 
@@ -121,7 +122,7 @@ background-color: wheat;
     font-size: 1rem;
 }
 .text{
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     text-align: center;
 }
 
@@ -142,4 +143,4 @@ background-color: wheat;
 
 }
 
-
+ 

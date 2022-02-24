@@ -6,7 +6,7 @@ body{
 h1{
 
   font-family: "Montserrat-Bold";
-  font-size: 3.5rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   
 }
@@ -14,7 +14,7 @@ h1{
 h2{
 
   font-family: "Montserrat-Bold";
-  font-size: 2rem;
+  font-size: 3rem;
   line-height: 1.5;
   text-align: center;
 }
@@ -23,20 +23,13 @@ h3{
   font-family: "Montserrat-Bold";
 }
 
-h5{
-
-  font-family: "Montserrat-Bold";
-  font-size: 1rem;
-  line-height: 1.5;
-
-}
 .text{
 
   text-align: left;
 }
 p{
   color:#8f8f8f;
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 
@@ -70,10 +63,6 @@ p{
   line-height: 1.5;
   
 }
-.section-heading {
-  font-size: 2rem;
-  line-height: 1.5;
-}
 
 /* Navigation Bar */
 
@@ -98,8 +87,7 @@ p{
 
 .nav-link{
   font-weight: "Montserrat-light";
-  
-  font-size: 1rem;
+  font-size: 0.75rem;
 }
 
 <!--Features-->
@@ -154,36 +142,22 @@ background-color: wheat;
 
 }
 
-
-
-
-
-
 .responsive {
-    height: 9rem;
-    float: left;
-    width:  100px;
-    height: 100px;
-    object-fit: cover;
-    margin: auto;
-  }
-
-
-  #pricing{
-    padding: 7% 15%;
-    background-color: #fff;
-    position: relative;
-    z-index: 1;
-    padding: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
 }
 
-.price-text {
+.popular-courses{
+  text-align: left;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.list{
   font-size: 1rem;
-  line-height: 1.5;
+  text-align: left;
 }
 
-
-.pricing-column {
-  padding: 3% 2%;
-} 
 

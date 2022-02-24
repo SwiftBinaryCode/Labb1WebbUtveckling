@@ -35,9 +35,9 @@ function populateList(input) {
     
     <div class="pricing-column col-lg-6">
         <div class="card">
-          <img
+          <img class="responsive"
             src="${courses.courseImg}"
-            class="responsive"/>
+            />
           <div class="card-body">
             <div class="shop-item">
               <h5 class="shop-item-title">${courses.courseTitle}</h5>

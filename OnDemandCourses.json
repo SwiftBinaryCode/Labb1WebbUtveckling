@@ -2,19 +2,25 @@
     "courseNumber":1,
     "courseTitle": "AI",
     "courseDescription": "Artificial intelligence (AI) is the ability of a computer or a robot controlled by a computer to do tasks that are usually done by humans because they require human intelligence and discernment.",
-    "courseLength":"1 Month"
+    "courseLength":"1 Month",
+    "coursePrice":"1000kr",
+    "courseImg":"Images/ai.png"
   },
   {
     "courseNumber":2,
     "courseTitle": "Java",
     "courseDescription": "Java is a multi-platform, object-oriented, and network-centric language. It is among the most used programming language. Java is also used as a computing platform. It is considered as one of the fast, secure, and reliable programming languages preferred by most organizations to build their projects.",
-    "courseLength":"1 Month"
+    "courseLength":"1 Month",
+    "coursePrice":"1000kr",
+    "courseImg":"Images/java2.png"
   },
   {
     "courseNumber":3,
     "courseTitle": "Python",
     "courseDescription": "Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis. Python is a general purpose language, meaning it can be used to create a variety of different programs and isn't specialized for any specific problems.",
-    "courseLength":"1 Month"
+    "courseLength":"1 Month",
+    "coursePrice":"1000kr",
+    "courseImg":"Images/python.png"
   }
   
 ]
