@@ -39,7 +39,7 @@ p{
   font-size: 0.75rem;
 }
 
-
+/* Title */
 #title .container-fluid {
   padding: 3% 15% 7%;
 }
@@ -50,7 +50,7 @@ p{
   text-align: left;
   color: black;
 }
-/* Title Image */
+
 .title-image {
   
   transform: rotate(25deg);
@@ -121,6 +121,36 @@ p{
 .feature-title {
   font-size: 1.5rem;
 }
+
+.responsive {
+  height: 9rem;
+  float: left;
+  width:  100px;
+  height: 100px;
+  object-fit: cover;
+  margin: auto;
+}
+
+
+#pricing{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  padding: 100px;
+}
+
+.price-text {
+font-size: 1rem;
+line-height: 1.5;
+}
+
+
+.pricing-column {
+padding: 3% 2%;
+} 
+
+
 <!--Footer-->
 
 .colored-section{
@@ -153,37 +183,4 @@ background-color: wheat;
 }
 
 }
-
-
-
-
-
-
-.responsive {
-    height: 9rem;
-    float: left;
-    width:  100px;
-    height: 100px;
-    object-fit: cover;
-    margin: auto;
-  }
-
-
-  #pricing{
-    padding: 7% 15%;
-    background-color: #fff;
-    position: relative;
-    z-index: 1;
-    padding: 100px;
-}
-
-.price-text {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-
-.pricing-column {
-  padding: 3% 2%;
-} 
 
