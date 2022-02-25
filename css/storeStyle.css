@@ -9,6 +9,12 @@ body{
     left:0;
 }
 
+#modal-button:hover {
+  color: deepskyblue;
+  font-size: 1.5em;
+  transition: 0.3s ease;
+}
+
 
   h1{
 
@@ -133,6 +139,32 @@ background-color: wheat;
     margin: 20px 10px;
   }
 
+  
+#pricing{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.price-text {
+font-size: 1rem;
+line-height: 1.5;
+}
+
+
+.pricing-column {
+padding: 3% 2%;
+} 
+
+
+.responsive {
+  height: 9rem;
+  float: left;
+  width:  100px;
+  height: 100px;
+  object-fit: cover;
+  margin: auto;
+}
+
 @media (max-width: 1028px) {
 
     #title {
@@ -146,45 +178,20 @@ background-color: wheat;
 
 }
 
+
+*{
+  font-family:"Montserrat-light";
+}
  
 
-#pricing{
-    padding: 7% 15%;
-    background-color: #fff;
-    position: relative;
+
+.card {
+  text-align: left;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(0.25turn, #2193b0, #6dd5ed);
 }
-.price-text {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-
-.pricing-column {
-  padding: 3% 2%;
-} 
-
-
-.responsive {
-    height: 9rem;
-    float: left;
-    width:  100px;
-    height: 100px;
-    object-fit: cover;
-    margin: auto;
-  }
-
-.card{
-
-    height: 100%;
-}
-
-
-* {
-    box-sizing: border-box;
-    font-family: Raleway;
-    
-}
-
 .content-section {
     margin: 1em;
 }
@@ -195,31 +202,12 @@ background-color: wheat;
     padding: 0 1.5em;
 }
 
-
-
 .btn {
     text-align: center;
     vertical-align: middle;
     padding: .67em .67em;
     cursor: pointer;
 }
-
-.btn-header {
-    margin: .5em 15% 2em 15%;
-    color: white;
-    border: 2px solid #2D9CDB;
-    background-color: rgba(255, 255, 255, .1);
-    border-radius: 0;
-    font-size: 1.5em;
-    font-weight: lighter;
-    padding-left: 2em;
-    padding-right: 2em;
-}
-
-.btn-header:hover {
-    background-color: rgba(255, 255, 255, .3);
-}
-
 
 .btn-primary {
     color: white;
@@ -228,9 +216,6 @@ background-color: wheat;
     border-radius: .3em;
     font-weight: bold;
 }
-
-
-
 
 .shop-item {
     margin: 30px;
@@ -324,28 +309,12 @@ background-color: wheat;
 }
 
 .btn-danger:hover {
-    background-color: #CC4C4C;
+    background-color: red;
 }
 
 .cart-quantity-input {
-    height: 34px;
-    width: 50px;
-    border-radius: 5px;
-    border: 1px solid #56CCF2;
-    background-color: #eee;
-    color: #333;
-    padding: 0;
-    text-align: center;
-    font-size: 1.2em;
-    margin-right: 25px;
-}
-
-.cart-row:last-child {
-    border-bottom: 1px solid black;
-}
-
-.cart-row:last-child .cart-column {
-    border: none;
+  width: 2.65em;
+  margin-right: 20px;
 }
 
 .cart-total {

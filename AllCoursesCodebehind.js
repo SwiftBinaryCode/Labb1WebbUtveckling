@@ -41,10 +41,10 @@ function populateList(input) {
           <div class="card-body">
             <div class="shop-item">
               <h5 class="shop-item-title">${courses.courseTitle}</h5>
-              <p class="course-length"><b>Course Length:${courses.courseLength}</b></p>
+              <p class="course-length"><b>${courses.courseLength}</b></p>
               <p class="card-text">
                 ${courses.courseDescription}
-                <p class="shop-item-price">Course Price:${courses.coursePrice}</p>
+                <p class="shop-item-price">${courses.coursePrice}</p>
                 <button type="button" class="btn btn-add btn-primary">
                   Add to cart
                 </button>
@@ -198,10 +198,10 @@ function addCourse() {
           <div class="card-body">
             <div class="shop-item">
               <h5 class="shop-item-title">${Title}</h5>
-              <p class="course-length"><b>Course Length:${Length}</b></p>
+              <p class="course-length"><b>${Length}</b></p>
               <p class="card-text">
                 ${Description}
-                <p class="shop-item-price">Course Price:${Price}</p>
+                <p class="shop-item-price">${Price}</p>
                 <button type="button" class="btn btn-add btn-primary">
                   Add to cart
                 </button>
