@@ -118,15 +118,12 @@ background-color: wheat;
     
 }
 
-.container-fluid-footer {
-  position:absolute;
-  bottom:0;
-  width:100%;
-  height:200px;   /* Height of the footer */
-  text-align: center;
-  background-color: wheat;
-  font-size: 1rem;
+.container-fluid-footer{
+  padding: 7% 15%;
 }
+
+
+
 .text{
     font-size: 1.0rem;
     text-align: center;
@@ -146,6 +143,24 @@ background-color: wheat;
       transform: rotate(0);
    
   }
+
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .container-fluid-footer {
+      padding: 7% 15%;
+      position:absolute;
+      bottom:0;
+      width:100%;
+      height:200px;   /* Height of the footer */
+      text-align: center;
+      background-color: wheat;
+      font-size: 1rem;
+    }
 
 }
 
