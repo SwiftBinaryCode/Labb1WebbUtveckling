@@ -115,6 +115,17 @@ background-color: wheat;
     text-align: center;
     background-color: wheat;
     font-size: 1rem;
+    
+}
+
+.container-fluid-footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:200px;   /* Height of the footer */
+  text-align: center;
+  background-color: wheat;
+  font-size: 1rem;
 }
 .text{
     font-size: 1.0rem;
@@ -137,5 +148,10 @@ background-color: wheat;
   }
 
 }
+
+
+
+
+
 
  
