@@ -330,6 +330,12 @@ course-length.b
     font-weight: bold;
 }
 
+
+.text{
+  font-size: 1.5em;
+  text-align: center;
+}
+
 .btn-danger:hover {
     background-color: red;
 }
