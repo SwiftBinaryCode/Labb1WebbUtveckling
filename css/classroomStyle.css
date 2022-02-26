@@ -5,7 +5,13 @@ body {
   
 }
 
-
+.pro-text{
+  
+    font-size: 3em;
+    text-align: center;
+  
+  
+}
 
 h1{
 
@@ -18,7 +24,7 @@ h1{
 h2{
 
   font-family: "Montserrat-Bold";
-  font-size: 2em;
+  font-size: 3.5em;
   line-height: 1.5;
   text-align: center;
 }
@@ -26,15 +32,21 @@ h3{
 
   font-family: "Montserrat-Bold";
   
+  
+  
 }
+h5{
+  font-family: "Montserrat-Bold";
+  font-size: 2em;
 
+}
 .text{
 
   text-align: left;
 }
 p{
   color:#8f8f8f;
-  font-size: 1.5em;
+  font-size: 2.3em;
 }
 
 /* Title */
@@ -59,7 +71,7 @@ p{
 
 
 .container-fluid{
-  padding: 7% 15%;
+  padding: 7% 1%;
 }
 
 
@@ -70,8 +82,9 @@ p{
   
 }
 
+
 .section-heading {
-  font-size: 2em;
+  font-size: 3.5em;
   line-height: 1.5;
 }
 
