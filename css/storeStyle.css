@@ -13,7 +13,7 @@
 
 body {
   min-height: 100vh;
-  font-family: "Montserrat-light";
+  font-family: "Montserrat";
 
 }
 
@@ -61,7 +61,6 @@ p{
   font-size: 1em;
 }
 
-/* Title */
 #title .container-fluid {
   padding: 3% 15% 7%;
 }
@@ -80,8 +79,6 @@ p{
   right: 30%;
 }
 
-
-
 .container-fluid{
   padding: 7% 1%;
 }
@@ -99,8 +96,6 @@ p{
   font-size: 2.5em;
   line-height: 1.5;
 }
-
-/* Navigation Bar */
 
 .navbar{
   padding: 0 0 4.5rem;
@@ -155,15 +150,9 @@ background-color: wheat;
   padding: 100px;
 }
 
-.price-text {
-font-size: 0.75em;
-line-height: 1.5;
-}
-
-
 .pricing-column {
-padding: 3% 2%;
-} 
+  padding: 3% 2%;
+  } 
 
 .responsive {
   height: 9rem;
@@ -369,103 +358,116 @@ padding: 3% 2%;
   
   .course-length {
     font-size: 1.75em;
-    
   }
 
   .shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
     font-size: 2.5em;
-    
-    
+    margin-bottom: 15px;
 }
 .card-text{
-  
   font-size: 2em;
   
 }
 
 #modal-button{
-  
+  position:absolute; 
   font-size: 1.5em;
-  
+  top:0; 
+  left:0;
 }
 
 #modal-button:hover {
-
+color: #5ceb57;
 font-size: 2em;
-
+transition: 0.3s ease;
 }
 
 .shop-item-price {
-  
+  flex-grow: 1;
+  color: black;
+  font-weight: bold;
   font-size: 1.75em;
 }
 .btn {
-  
+  text-align: center;
   font-size: 1.20em;
-  
-  
+  vertical-align: middle;
+  padding: .67em .67em;
+  cursor: pointer;
 }
 
 .responsive {
- 
+  height: 9rem;
+  float: left;
   width:  150px;
   height: 150px;
-
- 
+  object-fit: cover;
+  margin: auto;
 }
 
 .cart-item {
-  
+  width: 45%;
   font-size: 1.75em;
 }
 
 .cart-price {
-  
+  width: 20%;
   font-size: 1.75em;
-  
+  color: #333;
 }
 
 .cart-quantity {
-  
+  width: 35%;
   font-size: 1.75em;
 }
 
 .cart-item-title {
-  
- 
+  color: #333;
+  margin-left: .5em;
   font-size: 1.2em;
 }
 
 .btn-danger {
-  
+  color: white;
+  background-color: #EB5757;
+  border: none;
   border-radius: .1em;
-  
+  font-weight: bold;
 }
 
 
 .text{
 font-size: 1.5em;
-
+text-align: center;
 }
 
+.btn-danger:hover {
+  background-color: red;
+}
 
 .cart-quantity-input {
 width: 2em;
-
+margin-right: 20px;
+border-radius: 5px;
   
 }
 
-
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
 
 .cart-total-title {
-  
   font-size: 1.5em;
-  
-
+  margin-right: 10px;
 }
 
 .cart-total-price {
-  
   font-size: 1.75em;
 }
 
