@@ -145,18 +145,7 @@ background-color: wheat;
   margin: 20px 10px;
 }
 
-@media (max-width: 1028px) {
 
-  #title {
-    text-align: left;
-  }
-  .title-image {
-    position: static;
-    transform: rotate(0);
- 
-}
-
-}
 
 #pricing{
   padding: 7% 15%;
@@ -363,6 +352,19 @@ padding: 3% 2%;
     font-size: 1em;
 }
 
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: left;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+ 
+}
+
+}
+
 @media (max-width:980px) {
   
   .course-length {
@@ -381,7 +383,7 @@ padding: 3% 2%;
 }
 .card-text{
   color: #333;
-  font-size: 1.75em;
+  font-size: 2em;
   
 }
 
