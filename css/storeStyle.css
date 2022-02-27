@@ -54,7 +54,7 @@ p{
 }
 
 .section-heading {
-  font-size: 2.5em;
+  font-size: 3.5em;
   line-height: 1.5;
 }
 /*Modal*/
@@ -187,7 +187,7 @@ background-color: wheat;
 
 .btn {
     text-align: center;
-    font-size: 0.75em;
+    font-size: 1em;
     vertical-align: middle;
     padding: .67em .67em;
     cursor: pointer;
@@ -198,7 +198,7 @@ background-color: wheat;
     background-color: #5bf256;
     border: none;
     border-radius: .3em;
-    font-weight: bold;
+   
 }
 
 .shop-item {
@@ -261,7 +261,7 @@ background-color: wheat;
 }
 
 .cart-header {
-    font-weight: bold;
+    
     font-size: 1.25em;
     color: #333;
 }

@@ -31,8 +31,6 @@ function populateCourseList(array) {
   
   for (let i = 0; i < array.length; i++) {
     const course = array[i];
-    // let innerHTML = `<li> ${meal.mealName} ${meal.protien} ${meal.carbs} ${meal.sauce}</li>`;
-    
     let innerHTML = `
     <div class="pricing-column col-lg-6 col-md-6">
     <div class="card">

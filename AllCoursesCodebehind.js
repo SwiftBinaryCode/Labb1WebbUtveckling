@@ -97,7 +97,7 @@ function ready() {
 }
 
 function purchaseClicked() {
-  alert("Tack för att du handlat!");
+  alert("Thank you for your purchase!");
   var cartItems = document.getElementsByClassName("cart-items")[0];
   while (cartItems.hasChildNodes()) {
     cartItems.removeChild(cartItems.firstChild);
@@ -135,7 +135,7 @@ function addItemToCart(title, price) {
   var cartItemNames = cartItems.getElementsByClassName("cart-item-title");
   for (var i = 0; i < cartItemNames.length; i++) {
     if (cartItemNames[i].innerHTML == title) {
-      alert("Den här kursen finns redan i kundkorgen!");
+      alert("This Course is already in your cart!");
       return;
     }
   }
@@ -181,7 +181,7 @@ function updateCartTotal() {
     total + "kr";
 }
 
-// //Admin page logistics
+/*Admin page logistics*/
 
 function addCourse() {
 
