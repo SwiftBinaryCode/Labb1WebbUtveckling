@@ -95,8 +95,8 @@ transition: 0.3s ease;
 .responsive {
   height: 9rem;
   float: left;
-  width:  80px;
-  height: 80px;
+  width:  125px;
+  height: 125px;
   object-fit: cover;
   margin: auto;
 }
@@ -379,6 +379,23 @@ background-color: wheat;
 /*Media query*/
 @media (max-width:980px) {
   
+  .navbar-brand{
+  
+    font-size: 2em;
+    
+  }
+  
+  .nav-link{
+    font-weight: "Montserrat-light";
+    font-size: 1.5em;
+  }
+  
+    
+
+  .social-icon{
+
+    font-size: 1.5em;
+  }
   .course-length  {
     font-size: 2em;
   }

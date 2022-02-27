@@ -182,6 +182,24 @@ padding: 3% 2%;
 /*Media Query*/
 @media (max-width: 980px) {
 
+  .navbar-brand{
+  
+    font-size: 2em;
+    
+  }
+  
+  .nav-link{
+    font-weight: "Montserrat-light";
+    font-size: 1.5em;
+  }
+  
+    
+  
+  .social-icon{
+
+    font-size: 1.5em;
+  }
+  
  .section-heading{
   font-size: 3.5em;
  }
@@ -199,5 +217,7 @@ p {
 }
 
 }
+
+
 
 

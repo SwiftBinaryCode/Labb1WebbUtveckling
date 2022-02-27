@@ -144,6 +144,29 @@ body {
 
 }
 
+@media (max-width: 980px) {
+
+  .social-icon{
+
+    font-size: 1.5em;
+  }
+  .navbar-brand{
+  
+    font-size: 2em;
+    
+  }
+  
+  .nav-link{
+    font-weight: "Montserrat-light";
+    font-size: 1.5em;
+  }
+  
+    
+  }
+
+
+
+
 
 
  

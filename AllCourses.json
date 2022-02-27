@@ -10,8 +10,8 @@
     "courseNumber":2,
     "courseTitle": "Cyber Security",
     "courseDescription": "Computer security, cybersecurity, or information technology security is the protection of computer systems and networks from information disclosure, theft of or damage to their hardware, software, or electronic data, as well as from the disruption or misdirection of the services they provide.",
-    "courseLength":"1 Month",
-    "coursePrice":"1000kr",
+    "courseLength":"1",
+    "coursePrice":"1000",
     "courseImg":"Images/cyberSecurity.jpg"
   },
   {

@@ -159,6 +159,24 @@ p{
 /*Media Query*/
 @media (max-width: 980px) {
 
+  .navbar-brand{
+  
+    font-size: 2em;
+    
+  }
+  
+  .nav-link{
+    font-weight: "Montserrat-light";
+    font-size: 1.5em;
+  }
+  
+    
+ 
+  .social-icon{
+
+    font-size: 1.5em;
+  }
+  
   .feature-text{
     font-size: 1.5em;
   }
@@ -179,5 +197,6 @@ p{
   }
 
 }
+
 
 
