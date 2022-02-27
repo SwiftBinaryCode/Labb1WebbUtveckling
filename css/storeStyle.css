@@ -1,6 +1,4 @@
-
-  
-  #modal-button{
+#modal-button{
     position:absolute; 
     font-size: 0.75em;
     top:0; 
@@ -98,7 +96,7 @@ p{
 
 
 .section-heading {
-  font-size: 3.5em;
+  font-size: 2.5em;
   line-height: 1.5;
 }
 
@@ -124,26 +122,10 @@ p{
   font-size: 1.25em;
 }
 
-<!--Features-->
 .white-section{
   background-color: #fff;
 }
 
-#features{
-  padding: 7% 15%;
-  background-color: #fff;
-  position: relative;
-  
-}
-
-.feature-box{
-  text-align: center;
-  padding: 4.5%;
-}
-.feature-title {
-  font-size: 2.5em;
-}
-<!--Footer-->
 
 .colored-section{
 background-color: wheat;
@@ -197,8 +179,8 @@ padding: 3% 2%;
 .responsive {
   height: 9rem;
   float: left;
-  width:  100px;
-  height: 100px;
+  width:  80px;
+  height: 80px;
   object-fit: cover;
   margin: auto;
 }
@@ -207,12 +189,17 @@ padding: 3% 2%;
 .card {
   text-align: left;
   margin: 0 auto;
-  height: 95%;
+  height: 100%;
   width: 85%;                         
   
 }
+
+
+.card-body {
+  padding: 0.5em;
+}
 .content-section {
-    margin: 1em;
+    margin: 0.5em;
 }
 
 .container {
@@ -246,7 +233,7 @@ padding: 3% 2%;
     width: 100%;
     text-align: center;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #333;
     margin-bottom: 15px;
 }
@@ -258,7 +245,7 @@ padding: 3% 2%;
 
 .course-length
 {
-  font-size: 1.20em;
+  font-size: 0.90em;
   color: #333;
 }
 .shop-item-details {

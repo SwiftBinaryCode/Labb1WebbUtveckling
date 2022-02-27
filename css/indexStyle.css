@@ -5,9 +5,6 @@ body {
     background-color: wheat; 
     
 }
-
-
-
   h1{
 
     font-family: "Montserrat-Bold";
@@ -35,7 +32,6 @@ body {
     font-size: 1.40em;
   }
 
-  /* Title  */
 #title .container-fluid {
     padding: 3% 15% 7%;
 }
@@ -54,8 +50,6 @@ body {
     right: 30%;
   }
 
-  
-
 .container-fluid{
     padding: 7% 15%;
   }
@@ -66,8 +60,6 @@ body {
     line-height: 1.5;
     
   }
-
-/* Nav Bar */
 
 .navbar{
     padding: 0 0 4.5rem;
@@ -89,7 +81,6 @@ body {
     font-size: 1.25em;
   }
 
-<!--Features-->
 .white-section{
     background-color: #fff;
 }
@@ -108,7 +99,6 @@ body {
   .feature-title {
     font-size: 2.5em;
   }
-<!--Footer-->
 
 .colored-section{
 background-color: wheat;

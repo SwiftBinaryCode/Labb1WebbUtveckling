@@ -130,21 +130,6 @@ background-color: wheat;
   margin: 20px 10px;
 }
 
-@media (max-width: 1028px) {
-
-  #title {
-    text-align: left;
-  }
-  .title-image {
-    position: static;
-    transform: rotate(0);
- 
-}
-
-}
-
-
-
 .responsive {
   display: block;
   margin-left: auto;
@@ -156,9 +141,22 @@ background-color: wheat;
 .popular-courses{
   text-align: left;
   font-weight: bold;
-  font-size: 3.5em;
+  font-size: 2.5em;
 }
 .list{
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: left;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: left;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+ 
+}
+
 }

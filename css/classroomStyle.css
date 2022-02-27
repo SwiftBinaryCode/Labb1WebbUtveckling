@@ -24,7 +24,7 @@ h1{
 h2{
 
   font-family: "Montserrat-Bold";
-  font-size: 3.5em;
+  font-size: 2em;
   line-height: 1.5;
   text-align: center;
 }
@@ -37,7 +37,8 @@ h3{
 }
 h5{
   font-family: "Montserrat-Bold";
-  font-size: 2em;
+  font-size: 1em;
+  font-weight: bold;
 
 }
 .text{
@@ -45,8 +46,8 @@ h5{
   text-align: left;
 }
 p{
-  color:#8f8f8f;
-  font-size: 2.3em;
+  font-size: 1.20em;
+  color: #333;
 }
 
 /* Title */
@@ -84,7 +85,7 @@ p{
 
 
 .section-heading {
-  font-size: 3.5em;
+  font-size: 2.5em;
   line-height: 1.5;
 }
 
@@ -110,56 +111,8 @@ p{
   font-size: 1.25em;
 }
 
-<!--Features-->
 .white-section{
   background-color: #fff;
-}
-
-#features{
-  padding: 7% 15%;
-  background-color: #fff;
-  position: relative;
-  
-}
-
-.feature-box{
-  text-align: center;
-  padding: 4.5%;
-}
-.feature-title {
-  font-size: 2.5em;
-}
-<!--Footer-->
-
-.colored-section{
-background-color: wheat;
-}
-
-#footer{
-  text-align: center;
-  background-color: wheat;
-  font-size: 1em;
-}
-.text{
-  font-size: 1.5em;
-  text-align: center;
-}
-
-.social-icon {
-  margin: 20px 10px;
-}
-
-@media (max-width: 1028px) {
-
-  #title {
-    text-align: left;
-  }
-  .title-image {
-    position: static;
-    transform: rotate(0);
- 
-}
-
 }
 
 
@@ -190,4 +143,41 @@ line-height: 1.5;
 .pricing-column {
 padding: 3% 2%;
 } 
+
+
+<!--Footer-->
+
+.colored-section{
+background-color: wheat;
+}
+
+#footer{
+  text-align: center;
+  background-color: wheat;
+  font-size: 1em;
+}
+.text{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: left;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+ 
+}
+
+}
+
 
