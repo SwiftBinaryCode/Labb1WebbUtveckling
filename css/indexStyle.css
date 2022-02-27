@@ -160,6 +160,16 @@ body {
     font-weight: "Montserrat-light";
     font-size: 1.5em;
   }
+
+  .feature-title{
+    font-size: 2.75em;
+  }
+
+  p{
+    
+    font-size: 1.75em;
+    text-align: center;
+  }
   
     
   }
