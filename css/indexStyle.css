@@ -31,7 +31,15 @@ body {
     color:#8f8f8f;
     font-size: 1.40em;
   }
+  
+  .big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3em;
+    line-height: 1.5;
+    
+  }
 
+  /*Title*/
 #title .container-fluid {
     padding: 3% 15% 7%;
 }
@@ -43,6 +51,7 @@ body {
     color: black;
 }
 
+/*Images*/
 .title-image {
     
     transform: rotate(25deg);
@@ -50,17 +59,14 @@ body {
     right: 30%;
   }
 
+ /*Containers*/
 .container-fluid{
     padding: 7% 15%;
   }
 
-  .big-heading {
-    font-family: "Montserrat-Black";
-    font-size: 3em;
-    line-height: 1.5;
-    
-  }
 
+
+  /*NavBar*/
 .navbar{
     padding: 0 0 4.5rem;
   }
@@ -81,10 +87,8 @@ body {
     font-size: 1.25em;
   }
 
-.white-section{
-    background-color: #fff;
-}
 
+ /*Features*/
 #features{
     padding: 7% 15%;
     background-color: #fff;
@@ -100,10 +104,9 @@ body {
     font-size: 2.5em;
   }
 
-.colored-section{
-background-color: wheat;
-}
 
+
+  /*Footer*/
 #footer{
     text-align: center;
     background-color: wheat;
@@ -118,6 +121,16 @@ background-color: wheat;
     margin: 20px 10px;
   }
 
+  /*Sections*/
+  .white-section{
+    background-color: #fff;
+  }
+.colored-section{
+  background-color: wheat;
+  }
+
+
+  /*Media query for title*/
 @media (max-width: 1028px) {
 
     #title {
