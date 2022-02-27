@@ -106,11 +106,6 @@ transition: 0.3s ease;
   padding: 7% 1%;
 }
 
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 1.5em;
-}
 
 
 
@@ -246,6 +241,14 @@ background-color: wheat;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+/*Container*/
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
 }
 
 /*Cart Items*/
