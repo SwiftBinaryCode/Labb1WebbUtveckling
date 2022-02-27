@@ -41,10 +41,10 @@ function populateList(input) {
           <div class="card-body">
             <div class="shop-item">
               <h5 class="shop-item-title">${courses.courseTitle}</h5>
-              <p class="course-length"><b>${courses.courseLength}</b></p>
+              <p class="course-length"><b>${courses.courseLength} Month/s</b></p>
               <p class="card-text">
                 ${courses.courseDescription}
-                <p class="shop-item-price">${courses.coursePrice}</p>
+                <p class="shop-item-price">${courses.coursePrice}kr</p>
                 <button type="button" class="btn btn-add btn-primary">
                   Add to cart
                 </button>
@@ -190,30 +190,33 @@ function addCourse() {
   var Description = document.getElementById("course-info").value
   var Length = document.getElementById("course-length").value
   var Price = document.getElementById("course-price").value
+  var Img = document.getElementById("course-img").value;
+  var courseImg = new URL(Img);
   
   let content =  `
   
-    <div class="col">
-        <div class="card h-100">
-          <div class="card-body">
-            <div class="shop-item">
-              <h5 class="shop-item-title">${Title}</h5>
-              <h5 class="course-number">${Number}</h5>
-              <p class="course-length"><b>${Length}</b></p>
-              <p class="card-text">
-                ${Description}
-                <p class="shop-item-price">${Price}</p>
-                <button type="button" class="btn btn-add btn-primary">
-                  Add to cart
-                </button>
-              </p>
-            </div>
-          </div>
-        </div>
-        </div>
-        
-        `
-        ;
+  <div class="pricing-column col-lg-6">
+  <div class="card">
+  <img class="responsive"
+    src="${courseImg}"/>
+    <div class="card-body">
+      <div class="shop-item">
+        <h5 class="shop-item-title">${Title}</h5>
+        <h5 class="course-number">Course Number:${Number}</h5>
+        <p class="course-length"><b>${Length} Month/s</b></p>
+        <p class="card-text">
+          ${Description}
+          <p class="shop-item-price">${Price}kr</p>
+          <button type="button" class="btn btn-add btn-primary">
+            Add to cart
+          </button>
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+  `
+  ;
         
       
     document.getElementById("allCourses").innerHTML += content;
@@ -224,9 +227,21 @@ function addCourse() {
     button.addEventListener("click", addToCart);
   }
 
-  alert("Course added")
+      alert("Course added")
+      emptyValues()
+      
 
   }
+
+  function emptyValues() {
+    document.getElementById("course-number").value = "";
+    document.getElementById("course-title").value = "";
+    document.getElementById("course-info").value = "";
+    document.getElementById("course-length").value = "";
+    document.getElementById("course-price").value = "";
+    document.getElementById("course-img").value = "";
+  }
+  
 
   
 
