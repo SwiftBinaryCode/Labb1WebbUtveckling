@@ -66,6 +66,8 @@ function populateList(input) {
   }
 }
 
+/*Store Logic*/
+
 if (document.readyState == "loading") {
   document.addEventListener("DOMContentLoaded", ready);
 } else {
@@ -181,8 +183,6 @@ function updateCartTotal() {
     total + "kr";
 }
 
-/*Admin page logistics*/
-
 function addCourse() {
 
   var Number = document.getElementById("course-number").value
@@ -194,7 +194,7 @@ function addCourse() {
   let content =  `
   
     <div class="col">
-        <div class="card h-200">
+        <div class="card h-100">
           <div class="card-body">
             <div class="shop-item">
               <h5 class="shop-item-title">${Title}</h5>
