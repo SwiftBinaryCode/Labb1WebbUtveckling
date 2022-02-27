@@ -2,15 +2,14 @@
   
   #modal-button{
     position:absolute; 
-    
-    font-size: 1.75em;
+    font-size: 0.75em;
     top:0; 
     left:0;
 }
 
 #modal-button:hover {
   color: #5ceb57;
-  font-size: 2.5em;
+  font-size: 1em;
   transition: 0.3s ease;
 }
 
@@ -20,7 +19,7 @@ body {
 
 }
 
-b.{
+.b{
   font-size: 1.5em;
   font-family: "Montserrat-Bold";
   color: #333;
@@ -61,7 +60,7 @@ h5{
 }
 p{
   color:#8f8f8f;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 /* Title */
@@ -198,8 +197,8 @@ padding: 3% 2%;
 .responsive {
   height: 9rem;
   float: left;
-  width:  130px;
-  height: 130px;
+  width:  100px;
+  height: 100px;
   object-fit: cover;
   margin: auto;
 }
@@ -208,8 +207,8 @@ padding: 3% 2%;
 .card {
   text-align: left;
   margin: 0 auto;
-  height: 100%;
-  width: 100%;                         
+  height: 95%;
+  width: 85%;                         
   
 }
 .content-section {
@@ -224,7 +223,7 @@ padding: 3% 2%;
 
 .btn {
     text-align: center;
-    font-size: 1.75em;
+    font-size: 0.75em;
     vertical-align: middle;
     padding: .67em .67em;
     cursor: pointer;
@@ -247,13 +246,19 @@ padding: 3% 2%;
     width: 100%;
     text-align: center;
     font-weight: bold;
-    font-size: 3.5em;
+    font-size: 2em;
     color: #333;
     margin-bottom: 15px;
 }
 
-course-length.b
+.card-text{
+  color: #333;
+  
+}
+
+.course-length
 {
+  font-size: 1.20em;
   color: #333;
 }
 .shop-item-details {
@@ -302,18 +307,18 @@ course-length.b
 
 .cart-item {
     width: 45%;
-    font-size: 1.5rem;
+    font-size: 1em;
 }
 
 .cart-price {
     width: 20%;
-    font-size: 1.5rem;
+    font-size: 1em;
     color: #333;
 }
 
 .cart-quantity {
     width: 35%;
-    font-size: 1.5rem;
+    font-size: 1em;
 }
 
 .cart-item-title {
@@ -355,18 +360,143 @@ course-length.b
 
 .cart-total-title {
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1em;
     color: black;
     margin-right: 10px;
 }
 
 .cart-total-price {
     color: #333;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .btn-purchase {
     display: block;
     margin: 40px auto 80px auto;
-    font-size: 1.5rem;
+    font-size: 1em;
+}
+
+@media (max-width:800px) {
+  
+  .course-length {
+    font-size: 1.75em;
+    color: #333;
+  }
+
+  .shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+.card-text{
+  color: #333;
+  font-size: 1.75em;
+  
+}
+
+#modal-button{
+  position:absolute; 
+  font-size: 1.5em;
+  top:0; 
+  left:0;
+}
+
+#modal-button:hover {
+color: #5ceb57;
+font-size: 2em;
+transition: 0.3s ease;
+}
+
+.shop-item-price {
+  flex-grow: 1;
+  color: black;
+  font-weight: bold;
+  font-size: 1.75em;
+}
+.btn {
+  text-align: center;
+  font-size: 1.20em;
+  vertical-align: middle;
+  padding: .67em .67em;
+  cursor: pointer;
+}
+
+.responsive {
+  height: 9rem;
+  float: left;
+  width:  150px;
+  height: 150px;
+  object-fit: cover;
+  margin: auto;
+}
+
+.cart-item {
+  width: 45%;
+  font-size: 1.75em;
+}
+
+.cart-price {
+  width: 20%;
+  font-size: 1.75em;
+  color: #333;
+}
+
+.cart-quantity {
+  width: 35%;
+  font-size: 1.75em;
+}
+
+.cart-item-title {
+  color: #333;
+  margin-left: .5em;
+  font-size: 1.2em;
+}
+
+.btn-danger {
+  color: white;
+  background-color: #EB5757;
+  border: none;
+  border-radius: .1em;
+  font-weight: bold;
+}
+
+
+.text{
+font-size: 1.5em;
+text-align: center;
+}
+
+.btn-danger:hover {
+  background-color: red;
+}
+
+.cart-quantity-input {
+width: 2em;
+margin-right: 20px;
+border-radius: 5px;
+  
+}
+
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 10px;
+}
+
+.cart-total-price {
+  color: #333;
+  font-size: 1.75em;
+}
+
 }
