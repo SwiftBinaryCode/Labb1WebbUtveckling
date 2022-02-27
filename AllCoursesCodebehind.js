@@ -198,6 +198,7 @@ function addCourse() {
           <div class="card-body">
             <div class="shop-item">
               <h5 class="shop-item-title">${Title}</h5>
+              <h5 class="course-number">${Number}</h5>
               <p class="course-length"><b>${Length}</b></p>
               <p class="card-text">
                 ${Description}
